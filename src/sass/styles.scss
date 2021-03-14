@@ -1,0 +1,26 @@
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-card {
+  display: block;
+  width: calc((100% - 6 * 31px) / 3);
+  height: calc((100% - 6 * 31px) / 3);
+  padding: 1px;
+  margin: 30px;
+  background-color: #fff;
+  box-shadow: 0 2.8px 2.2px rgb(255, 112, 112), 0 6.7px 5.3px rgb(52, 52, 255), 0 12.5px 10px rgb(53, 133, 53),
+    0 22.3px 17.9px rgb(180, 45, 180), 0 41.8px 33.4px rgb(209, 160, 68), 0 100px 80px teal;
+}
+
+.img {
+  display: block;
+  width: 100%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
